@@ -1,6 +1,5 @@
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
-LAYOUT_WITH_LEGEND()
 
 Container_Ext(client, "API Client", "HTTP", "External client")
 
