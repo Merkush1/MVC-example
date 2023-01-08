@@ -6,7 +6,7 @@ Here is simple diagram of components of MVC pattern in C4 notation. Each compone
 2. **Model.** *Stores business logic and logic of working with entities, works directly with the database. Essentially the core of the application*
 3. **Component.** *UI. Renders content based on data from the model. Users see and work directly with the view*
 
-![mvc](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Merkush1/MVC-example/plantUMLBranch/umlSrc/mvc-component-diagram.iuml)
+![mvc](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Merkush1/MVC-example/main/umlSrc/mvc-component-diagram.iuml)
 
 ## Run app
 1. Install the necessary packages with `npm install`
