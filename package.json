@@ -2,7 +2,7 @@
   "name": "mvc-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "mvc-node/src/server.js",
   "scripts": {
     "start": "mvc-node/src/server.js"
   },
