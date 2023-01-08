@@ -4,7 +4,7 @@
   "description": "",
   "main": "mvc-node/src/server.js",
   "scripts": {
-    "start": "mvc-node/src/server.js"
+    "start": "nodemon .mvc-node/src/server.js"
   },
   "keywords": ["MVC"],
   "author": "Merkush1",
