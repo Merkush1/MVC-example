@@ -1,4 +1,14 @@
 {
+  "name": "mvc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mvc-node/src/server.js"
+  },
+  "keywords": ["MVC"],
+  "author": "Merkush1",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "hbs": "^4.2.0",
