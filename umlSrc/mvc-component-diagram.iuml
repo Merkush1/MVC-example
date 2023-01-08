@@ -2,16 +2,16 @@
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 LAYOUT_WITH_LEGEND()
 
-Container_Ext(client, "API Client", "HTTP", "Внешний клиент")
+Container_Ext(client, "API Client", "HTTP", "External client")
 
 Container_Boundary(mvc_app, "MVC-example Application") {
-    Container_Boundary(controller_layer, "Controller Layer") {
+    Boundary(controller_layer, "Controller Layer") {
         Component(controller, "Controller", "Web API Controller", "Processes HTTP requests, extracts parameters from requests. Used to implement the loose coupling between interface and logic layers")
     }
-    Container_Boundary(model_layer, "Model Layer") {
+    Boundary(model_layer, "Model Layer") {
         Component(model, "Model", "", "Stores business logic and logic of working with entities, works directly with the database. Essentially the core of the application")
     }
-    Container_Boundary(view_layer, "View Layer") {
+    Boundary(view_layer, "View Layer") {
         Component(view, "View", "", "UI. Renders content based on data from the model. Users see and work directly with the view")
     }
 
