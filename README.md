@@ -1,5 +1,5 @@
 # MVC-example
-Simple example of MVC architecture. Project based and modyfied of https://github.com/utimur/mvc
+Simple example of MVC internal app architecture pattern. Project based and modyfied of https://github.com/utimur/mvc
 ## Description of MVC
 Here is simple diagram of components of MVC pattern in C4 notation. Each component is responsible for a different part of the processes. In MVC pattern you have 3 layers / components:
 1. **Controller.** *Processes HTTP requests, extracts parameters from requests. Used to implement the loose coupling between interface and logic layers*
